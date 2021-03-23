@@ -6,9 +6,9 @@ function destructivelyAppendKitten(name) {
   return kitten;
 }
 
-fnction destructivelyPrependKitten(name) {
+function destructivelyPrependKitten(name) {
   kitten.unshift(name);
-  kitten;
+  return kitten;
 }
 
 function destructivelyRemoveLastKitten() {
